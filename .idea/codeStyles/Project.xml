@@ -1,0 +1,10 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="80" />
+    <JavaCodeStyleSettings>
+      <option name="PARAMETER_NAME_PREFIX" value="aIn" />
+      <option name="LOCAL_VARIABLE_NAME_PREFIX" value="l" />
+      <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
+    </JavaCodeStyleSettings>
+  </code_scheme>
+</component>
