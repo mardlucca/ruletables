@@ -1,5 +1,2 @@
-# template-project
-This is a template/skeleton project to be used a starting point to create basic Java projects using Gradle.
-
-This project includes:
-* TODO: Add description 
+# ruletables
+This is a simple rules engine implementation based on ideas from "iptables". This is meant to be a generic library written in Java. This library/API can then be further enhanced/extended to included any desired functionality like an expression language or script to allow users to write rules using the engine.

@@ -1,7 +1,7 @@
 /*
  * File: build.gradle
  *
- * Copyright 2019 Marcio D. Lucca
+ * Copyright 2020 Marcio D. Lucca
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,11 +16,15 @@
  * limitations under the License.
  */
 
-subprojects {
-    group = 'mardlucca'
-    version = '1.0.0'
+group = 'mardlucca'
+version = '1.0.0'
 
-    repositories {
-        mavenCentral()
-    }
+repositories {
+    mavenCentral()
+}
+
+apply plugin : 'java'
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
 }
